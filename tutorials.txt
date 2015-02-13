@@ -1,0 +1,6 @@
+
+Tutorials
+http://www.javacoffeebreak.com/articles/javarmi/javarmi.html
+http://docs.oracle.com/javase/tutorial/rmi/
+https://www.youtube.com/watch?v=U_2AOJb-_NY
+https://www.youtube.com/watch?v=ILeAeFZOkMI
