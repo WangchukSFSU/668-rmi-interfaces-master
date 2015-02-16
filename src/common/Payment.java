@@ -15,4 +15,3 @@ public interface Payment extends Remote {
     public void setType(PaymentType type) throws RemoteException;
 
 }
-}
