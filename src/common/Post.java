@@ -10,4 +10,6 @@ public interface Post extends Remote {
     
     public HashMap<String, Item> getInventory() throws RemoteException;
     
+    public Customer createNewCustomer(String name) throws RemoteException;
+    
 }
