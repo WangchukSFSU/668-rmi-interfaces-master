@@ -4,12 +4,9 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.HashMap;
 
-public interface Post extends Remote {
-    
+public interface Store extends Remote {
+
     public boolean helpCustomer(Customer customer) throws RemoteException;
-    
+
     public HashMap<String, Item> getInventory() throws RemoteException;
-    
-    public Customer createNewCustomer(String name) throws RemoteException;
-    
 }
