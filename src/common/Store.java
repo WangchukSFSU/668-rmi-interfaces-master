@@ -18,7 +18,7 @@ public interface Store extends Remote {
      *         authentication error.
      * @throws RemoteException
      */
-    public boolean recordSale(Customer customer) throws RemoteException;
+    public boolean recordSale (Customer customer) throws RemoteException;
 
     /**
      * @return HashMap of Item UPCs and Items
