@@ -38,10 +38,10 @@ public class ItemTuple {
 
     /**
      *
-     * @param uPC scanned for the item from the Customer cart
+     * @param UPC scanned for the item from the Customer cart
      */
-    public void setUPC(String uPC) {
-        UPC = uPC;
+    public void setUPC(String UPC) {
+        this.UPC = UPC;
     }
 
     /**

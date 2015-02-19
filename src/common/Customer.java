@@ -45,4 +45,11 @@ public interface Customer extends Remote {
      * @throws RemoteException
      */
     public String getName() throws RemoteException;
+
+    /**
+     * 
+     * @param name name of customer
+     * @throws RemoteException
+     */
+    public void setName(String name) throws RemoteException;
 }
