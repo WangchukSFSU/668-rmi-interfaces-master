@@ -19,28 +19,26 @@ public interface Customer extends Remote {
     public void addItem(String UPC, int quantity) throws RemoteException;
 
     /**
-     * Total price of the Customer item
+     * Payment for purchase
      * @param payment set for the customer
      * @throws RemoteException
      */
     public void addPayment(Payment payment) throws RemoteException;
 
     /**
-     * List of Customer Item added to ArrayList
+     * List of Customer Item added to ArrayList (Cart)
      * @return ArrayList of Item from the Customer cart
      * @throws RemoteException
      */
     public ArrayList<ItemTuple> getItems() throws RemoteException;
 
     /**
-     * 
-     * @return Payment of Total price customer owe
+     * @return Payment the payment for this purchase
      * @throws RemoteException
      */
     public Payment getPayment() throws RemoteException;
 
     /**
-     * 
      * @return The customer name
      * @throws RemoteException
      */

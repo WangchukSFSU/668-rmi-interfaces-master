@@ -19,7 +19,6 @@ public interface Store extends Remote {
     public boolean processCustomer(Customer customer) throws RemoteException;
 
     /**
-     *
      * @return HashMap of Item UPCs and Items
      * @throws RemoteException
      */

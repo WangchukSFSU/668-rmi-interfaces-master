@@ -6,20 +6,17 @@ import java.math.BigDecimal;
 
 /**
  * Abstract class to standardize all payment types
- * 
  */
 public interface Payment extends Remote {
 
     /**
-     *
-     * @return The total amount the Customer owe
+     * @return The total amount of the payment
      * @throws RemoteException
      */
     public BigDecimal getAmount() throws RemoteException;
 
     /**
-     *
-     * @param amount which shows the total amount the Customer owe 
+     * @param amount the amount of the payment
      * @throws RemoteException
      */
     public void setAmount(BigDecimal amount) throws RemoteException;
@@ -33,7 +30,6 @@ public interface Payment extends Remote {
     public PaymentType getType() throws RemoteException;
 
     /**
-     *
      * @param type of Payment type the Customer choose to pay for his item
      * @throws RemoteException
      */

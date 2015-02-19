@@ -21,7 +21,6 @@ public class ItemTuple {
     }
 
     /**
-     *
      * @return the UPC of each Item scanned from Customer cart.
      */
     public String getUPC() {
@@ -29,7 +28,6 @@ public class ItemTuple {
     }
 
     /**
-     *
      * @return the number of each quantity from the Customer cart
      */
     public int getQuantity() {
@@ -37,7 +35,6 @@ public class ItemTuple {
     }
 
     /**
-     *
      * @param UPC scanned for the item from the Customer cart
      */
     public void setUPC(String UPC) {
@@ -45,7 +42,6 @@ public class ItemTuple {
     }
 
     /**
-     *
      * @param quantity of the each item in the customer cart
      */
     public void setQuantity(int quantity) {
