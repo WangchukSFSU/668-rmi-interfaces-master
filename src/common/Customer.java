@@ -45,12 +45,6 @@ public interface Customer extends Remote {
      */
     public Payment getPayment() throws RemoteException;
 
-    public PaymentType getPaymentType() throws RemoteException;
-
-    public BigDecimal getPaymentAmount() throws RemoteException;
-
-    public String getCardNumber() throws RemoteException;
-
     /**
      * @return The customer name
      * @throws RemoteException
