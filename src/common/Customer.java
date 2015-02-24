@@ -1,6 +1,5 @@
 package common;
 
-import java.math.BigDecimal;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
