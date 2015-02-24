@@ -5,15 +5,12 @@ import java.rmi.RemoteException;
 import java.util.HashMap;
 
 /**
- * Process Customer objects for checkout .
+ * Provides access to catalog information and records sales
  */
 public interface Store extends Remote {
 
     /**
-     * Processes Customer objects and passes customer item list to checkout.
-     * 
-     * @param customer
-     *            customer which is ready for checkout
+     * @param customer object with sale information to be recorded
      * @return a String formatted as a Sales Receipt
      * @throws RemoteException
      */
